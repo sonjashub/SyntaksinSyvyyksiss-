@@ -90,7 +90,6 @@ h3 {
 }
 
 pre {
-
     padding: 10px;
     overflow-wrap: break-word;
     white-space: pre-wrap;
@@ -140,12 +139,15 @@ footer {
         h1 {
             font-size: 22px;
         }
+        h2 {
+           font-size: 22px; 
+        }
         a {
             margin: 5px;
             font-size: 10px;
             padding: 6px, 16px;
         }
-         p{
+         p {
         font-size: 9pt;
     }
     
