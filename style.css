@@ -122,4 +122,22 @@ footer {
     }
 
 }
+    @media only screen and (max-width: 400px) {
+        body {
+            background-image: url("taustakuva-mobiili.jpg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        h1 {
+            font-size: 22px;
+        }
+        a {
+            margin: 5px;
+            font-size: 10px;
+            padding: 6px, 16px;
+        }
+    
+    }
 
