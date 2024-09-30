@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'PlayFontti';
+    src: url('Play-Regular.ttf');
+}
+    header {
+    background: transparent; 
+    color: #FEE3FE;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #FEE3FE;
+    background-color: #203060;
+    padding: 8px 20px;
+    border: 2px solid #FEE3FE;
+    border-radius: 5px;
+    margin: 50px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+a:hover {
+    color: #A42B8C;
+    background-color: #FEE3FE;
+}
+#valittu {
+    color: #FEE3FE;
+    background-color: #203060;
+    border: 2px solid #0b0109;
+}
+
+body {
+    /* Taustakuva PC */
+    background-image: url("taustakuva-PC.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FEE3FE;
+    font-family: "PlayFontti", Verdana, Geneva, Tahoma, sans-serif;
+}
+#laatikko {
+    background-color: #0F1934;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    padding: 3%;
+}
+
+#kysymys {
+    margin-top: 12%;
+    margin-bottom: 12%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+#selitys {
+    margin-top: 45px;
+}
+
+p {
+    font-size: 12pt;
+}
+
+h1 {
+    font-size: 26pt; 
+    margin-bottom: 40px;
+    text-shadow: -1px 1px 0 #A42B8C, 1px 1px 0 #A42B8C, 1px -1px 0 #A42B8C, -1px -1px 0 #A42B8C;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+#osoite {
+    margin-top: 15px;
+}
+
+pre {
+
+    padding: 10px;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #0b1328;
+}
+
+footer {
+    background-color: #0F1934;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 3%;
+}
+    /* Taustakuva mobiili */
+@media only screen and (max-width: 768px) {
+    body {
+        background-image: url("taustakuva-mobiili.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    nav a {
+        margin: 10px;
+    }
+
+}
+

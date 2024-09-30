@@ -1,0 +1,5 @@
+Taustakuva ja koodiesimerkit luotu tekoälyllä.
+Muutokset suunnitelmaan nähden:
+- Fontti vaihdettu Biome -> Play, sillä Biome ei helposti saatavilla.
+
+Sivuston asiasisällön lähteenä käytetty kirjaa Kasurinen, J. P.: Outoa ohjelmointia.
