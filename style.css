@@ -35,7 +35,7 @@ a:hover {
 
 body {
     /* Taustakuva PC */
-    background-image: url("taustakuva-PC.jpg");
+    background-image: /* url("taustakuva-PC.jpg"); */
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
